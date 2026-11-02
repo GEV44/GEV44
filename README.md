@@ -12,7 +12,7 @@
 
 I'm an **AI & automation engineer in Yerevan, Armenia (GMT+4)**. I build RAG chatbots that answer from your own documents, Telegram bots, LLM pipelines, scrapers and n8n/Make/Python automations, and I ship them with tests.
 
-🎓 B.Sc. Informatics & Applied Mathematics, Yerevan State University (2026) &nbsp;·&nbsp; 🧬 ML internship at BostonGene (2026) &nbsp;·&nbsp; 🗣️ English · Russian · Armenian
+🎓 B.Sc. Informatics & Applied Mathematics, Yerevan State University (2023–2027) &nbsp;·&nbsp; 🧠 ML Engineer intern at Mathrix AI (2026) &nbsp;·&nbsp; 🧬 BostonGene program in bioinformatics & data science in oncology (2025–26) &nbsp;·&nbsp; 🗣️ English · Russian · Armenian
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
@@ -44,7 +44,7 @@ I'm an **AI & automation engineer in Yerevan, Armenia (GMT+4)**. I build RAG cha
 | [**wardrobe-intelligence-lab**](https://github.com/GEV44/wardrobe-intelligence-lab) · [live](https://wardrobe-intelligence-lab.streamlit.app) | AI stylist MVP: weather- and occasion-aware outfits, learns from likes/dislikes, local LLM chat (Qwen3 via llama.cpp) in EN/RU/HY. | Python · Streamlit · llama.cpp · recommender |
 | [**silent-stakeholder**](https://github.com/GEV44/silent-stakeholder) · [demo](https://gev44.github.io/silent-stakeholder-demo/) | Evidence-grounded LLM pipeline: turns app reviews and a public roadmap into ranked product opportunities, every finding traced to a verified quote. | Python · NLP · Streamlit · pytest/mypy |
 | [**think-weather-cli**](https://github.com/GEV44/think-weather-cli) | Terminal weather dashboard for any city or postal code: hourly chart, 5-day forecast, JSON output, cache. | Python · Rich · Open-Meteo |
-| [**batchcor-rna-embeds**](https://github.com/GEV44/batchcor-rna-embeds) | Internship group project: scGPT embeddings, conditional autoencoder batch correction, survival prediction. | PyTorch · LightGBM · single-cell |
+| [**batchcor-rna-embeds**](https://github.com/GEV44/batchcor-rna-embeds) | BostonGene program group project: scGPT embeddings, conditional autoencoder batch correction, survival prediction. | PyTorch · LightGBM · single-cell |
 | [**stereo-distance-calculator**](https://github.com/GEV44/stereo-distance-calculator) | Dual-camera depth estimation: lens model, ZNCC epipolar matching, triangulation, written in pure NumPy. | NumPy · computer vision |
 
 Private: **EdgeFinder** (Telegram FX-signal bot with walk-forward testing that says "no trade" when nothing is proven) and **Sentinel** (24/7 crypto research and paper-trading engine with a risk gate and ~460 tests). Details on the [portfolio](https://gev44.github.io).
