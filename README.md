@@ -36,10 +36,14 @@ I treat an AI feature like any other production system. It needs an evaluation s
 | [**batchcor-rna-embeds**](https://github.com/GEV44/batchcor-rna-embeds) | BostonGene program group project. scGPT embeddings, conditional-autoencoder batch correction and survival prediction on single-cell data. | PyTorch · LightGBM · single-cell |
 | [**doc-rag-api**](https://github.com/GEV44/doc-rag-api) | Document Q&A service. Upload PDF, TXT or MD, ask questions, and get answers with cited source chunks. BM25 retrieval works offline. Embeddings and an LLM answer step are optional through any OpenAI-compatible endpoint. Test suite plus a retrieval eval in CI. | Python · FastAPI · BM25 · RAG |
 
-**Private production systems** (details on the [portfolio](https://gev44.github.io)):
+### Private systems (code not public)
 
-- **Sentinel** is a 24/7 crypto research and paper-trading engine. It has an independent risk engine with hard limits, pre-registered hypotheses judged on forward data, and about 460 tests including property, chaos and API-fuzz tests.
-- **EdgeFinder** is a Telegram FX-signal bot with walk-forward testing. It answers "no trade" whenever an edge isn't statistically supported.
+| System | What it does | Engineering behind it |
+|---|---|---|
+| **Sentinel** | 24/7 crypto research and paper-trading engine across Solana, Base and BSC | ~460 tests (risk-property, chaos, API-fuzz, Playwright UI) · independent risk engine with hard limits · 10 pre-registered hypotheses judged on forward data · 30-day tracking of every token |
+| **EdgeFinder** | Telegram FX-signal bot: 11 currency pairs × 4 expiries, LightGBM + multi-timeframe features | 2 years of market data · 18-month walk-forward · sealed 3-month test · says **NO TRADE** when no edge is statistically proven |
+
+Write-ups on the [portfolio](https://gev44.github.io).
 
 ## Tech stack
 
