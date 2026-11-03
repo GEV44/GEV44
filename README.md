@@ -14,6 +14,12 @@
 
 I treat an AI feature like any other production system. It needs an evaluation set, a CI pipeline, failure modes that are written down, and a clear "I don't know" when the data doesn't support an answer.
 
+## Flagship: stereo vision from first principles
+
+<a href="https://github.com/GEV44/stereo-distance-calculator"><img src="assets/stereo-demo.gif" alt="Stereo distance measurement: click a point, the model finds the match on the epipolar line and triangulates the distance" width="100%"></a>
+
+Metric distance from two cameras with **no deep learning**. A learnable 5×5 lens grid per camera, gradients derived by hand and checked against finite differences, CLAHE + ZNCC epipolar matching with sub-pixel and Lucas–Kanade refinement, and least-squares triangulation, all in pure NumPy. The repo reports both the fit error and the leave-one-out error on 27 real measurements, with the math derivation as a PDF. <sub>Demo uses a synthetic scene ray-traced through the real calibrated model.</sub>
+
 ## How I build AI systems
 
 | Principle | Where you can see it |
@@ -29,7 +35,7 @@ I treat an AI feature like any other production system. It needs an evaluation s
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**stereo-distance-calculator**](https://github.com/GEV44/stereo-distance-calculator) | Metric distance from two cameras with no deep learning. A learnable 5×5 lens grid per camera, hand-derived gradients checked against finite differences, ZNCC epipolar matching and least-squares triangulation, all in pure NumPy. About 0.1 m mean error on 27 real measurements. | NumPy · computer vision · optimisation |
+| [**stereo-distance-calculator**](https://github.com/GEV44/stereo-distance-calculator) | Metric distance from two cameras with no deep learning. A learnable 5×5 lens grid per camera, hand-derived gradients checked against finite differences, ZNCC epipolar matching and least-squares triangulation, all in pure NumPy. Reports 0.095 m fit error and 0.32 m leave-one-out error on 27 real measurements. | NumPy · computer vision · optimisation |
 | [**silent-stakeholder**](https://github.com/GEV44/silent-stakeholder) · [demo ↗](https://gev44.github.io/silent-stakeholder-demo/) | Evidence-grounded LLM pipeline. It joins 3,200 app reviews with 774 public roadmap records and ranks the needs the roadmap misses. All 843 cited quotes are re-matched to source text, and 252 tests plus mypy run in CI. | Python · NLP · Streamlit · pytest · mypy |
 | [**resume-constructor**](https://github.com/GEV44/resume-constructor) · [live ↗](https://resume-constructor-gev44.vercel.app) | Full-stack AI resume builder. It scores a resume against a job, rewrites it without inventing facts, and exports ATS-readable PDF and Word. Auth, Postgres with row-level security, Edge Functions, unit and end-to-end tests. | React · TypeScript · Supabase · Vercel |
 | [**wardrobe-intelligence-lab**](https://github.com/GEV44/wardrobe-intelligence-lab) · [live ↗](https://wardrobe-intelligence-lab.streamlit.app) | Explainable AI stylist. A transparent scoring engine picks weather- and occasion-aware outfits and learns from feedback, with a local LLM chat (Qwen3 via llama.cpp) in English, Russian and Armenian. 93 tests. | Python · Streamlit · llama.cpp · recommender |
