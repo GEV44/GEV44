@@ -10,7 +10,7 @@ AI/ML engineer in Yerevan, Armenia. I build systems that run in production: LLM 
 **Selected work**
 | Project | What it proves | Stack |
 |---|---|---|
-| [gevstate](https://github.com/GEV44/gevstate) · [live demo](https://gevllm-gevstate.hf.space) | Production LLM system: extraction in 3 languages + translit, dedupe, scoring, matching, follow-ups, live dashboard by source, white-label config. | Python · FastAPI · HTMX · aiogram · SQLAlchemy · Claude |
+| [gevstate](https://github.com/GEV44/gevstate) | Production LLM system: extraction in 3 languages + translit, dedupe, scoring, matching, follow-ups, live dashboard by source, white-label config. | Python · FastAPI · HTMX · aiogram · SQLAlchemy · Claude |
 | [stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator) | Computer vision without libraries: analytic gradients, a 5×5 gamma-grid lens model, ZNCC epipolar matching, OLS triangulation; tested against a synthetic rig with published error curves. | NumPy · pytest |
 | [doc-rag-api](https://github.com/GEV44/doc-rag-api) | RAG done honestly: BM25 first, optional embeddings and any OpenAI-compatible LLM, answers cite their chunks, retrieval eval in CI, 24 tests. | FastAPI · BM25 · Ollama |
 | [silent-stakeholder](https://github.com/GEV44/silent-stakeholder) · [demo](https://gev44.github.io/silent-stakeholder-demo/) | Evidence-grounded LLM pipeline: app reviews + a public roadmap → ranked product opportunities, every claim traced to a verified quote. | Python · NLP · Streamlit |
