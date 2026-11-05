@@ -3,9 +3,8 @@
 # Gevorg Hovhannisyan
 ### AI & Machine Learning Systems Engineer · Yerevan, Armenia
 
-[![Telegram](https://img.shields.io/badge/Telegram-@hovhannisyan77-2BA8E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hovhannisyan77)
 [![Portfolio](https://img.shields.io/badge/Portfolio-gev44.github.io-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://gev44.github.io)
-[![YourRealty Live](https://img.shields.io/badge/YourRealty-Live%20Cloud%20Demo-C9A24A?style=for-the-badge&logo=vercel&logoColor=white)](https://yourrealty.vercel.app/app)
+[![Telegram](https://img.shields.io/badge/Telegram-@hovhannisyan77-2BA8E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hovhannisyan77)
 [![Email](https://img.shields.io/badge/Email-gev220705@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gev220705@gmail.com)
 
 <p align="center">
@@ -21,9 +20,16 @@
 > **Autonomous 24/7 Real-Estate AI Radar & Lead Matching Engine**  
 > Running in production for Yerevan agencies · [Open Agent Workspace](https://yourrealty.vercel.app/app) · [Interactive Home Finder](https://yourrealty.vercel.app/app/find) · [Client Request Form](https://yourrealty.vercel.app/request)
 
+<p align="center">
+  <a href="https://yourrealty.vercel.app/app">
+    <img src="https://raw.githubusercontent.com/GEV44/gevstate/main/docs/img/social-preview.png" alt="YourRealty Preview" width="100%">
+  </a>
+</p>
+
 - **24/7 Autonomous Cloud Ingest:** Continuously scrapes and parses listings across 12 public Telegram channels, public groups, web requests, and forwarded screenshots without requiring a local PC.
 - **Dual-Stage Probability Calibration:** Integrates **TypeSafe Jev AI** to mathematically separate real housing seekers ($P \ge 0.90$) from agency advertisements and noise, with deterministic SQL fallback that never blocks on rate limits.
 - **Instant Match Cards:** Ranks 8,983+ indexed Yerevan properties across Kentron, Arabkir, Davtashen, and 9 other districts; delivers ready lead cards with contact buttons into agents' Telegram within 2.4 seconds.
+- **Security & Access Control:** Public cloud demo allows read-only exploration of live search, listings, and multilingual switching. Administrative actions and lead modifications are secured by a protected login panel (`/app/login`) with host-generated credentials.
 - **Engineering Discipline:** 1,144 pytest unit & integration tests, SQLite WAL mode, async queue architecture, trilingual support (**Armenian · Russian · English** + Latin transliteration).
 
 ---
@@ -34,6 +40,7 @@
 |---|---|---|---|
 | **[YourRealty](https://github.com/GEV44/gevstate)** · [Demo](https://yourrealty.vercel.app/app) | Real-estate radar & AI lead matcher; 35k posts/wk, 1,144 tests, 24/7 serverless runtime | Python 3.12 · FastAPI · HTMX · TypeSafe Jev AI · SQLite WAL | ![Live](https://img.shields.io/badge/Running-24%2F7-22C55E?style=flat-square) |
 | **[stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator)** · [Math PDF](https://github.com/GEV44/stereo-distance-calculator/blob/main/docs/MATHEMATICAL_FOUNDATION.pdf) | Computer vision from first principles: analytic gradients, 5×5 gamma lens model, ZNCC epipolar matching, 6.0% median error on 27 calibrated points | NumPy · SciPy · pytest | ![Research](https://img.shields.io/badge/CV-Research-60A5FA?style=flat-square) |
+| **[wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence-lab)** · [Demo](https://wardrobe-intelligence.streamlit.app) | Context-aware AI stylist MVP: FashionSigLIP zero-shot tagging, outfit scoring, local Qwen3 chat via llama.cpp | Python · Streamlit · PyTorch · FastAPI | ![Live](https://img.shields.io/badge/Streamlit-Live-FF4B4B?style=flat-square) |
 | **[Sentinel](https://gev44.github.io)** | Crypto research & paper-trading engine on Solana, Base & BSC; automated honeypot/mint gates, 10 pre-registered hypotheses tracked for 30d | Python · TimescaleDB · Playwright · Risk Engine | ![Live](https://img.shields.io/badge/Running-24%2F7-22C55E?style=flat-square) |
 | **[resume-constructor](https://github.com/GEV44/resume-constructor)** · [Live App](https://resume-constructor-gev44.vercel.app) | AI resume builder: parses PDF/DOCX, scores against 36 job roles, suggests grounded rewrites; auth, Postgres RLS, Edge Functions | React · TypeScript · Supabase · Gemini | ![Live](https://img.shields.io/badge/Live-Production-F59E0B?style=flat-square) |
 | **[doc-rag-api](https://github.com/GEV44/doc-rag-api)** | Grounded document Q&A over HTTP; answers cite source chunks and similarity scores, refuses unknown questions; 24 CI tests | Python · FastAPI · BM25 · Ollama / OpenAI | ![Open Source](https://img.shields.io/badge/Open-Source-22C55E?style=flat-square) |
