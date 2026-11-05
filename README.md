@@ -1,7 +1,7 @@
 <div align="center">
 
 # Gevorg Hovhannisyan
-### AI & Machine Learning Systems Engineer · Yerevan, Armenia
+### Senior AI & Machine Learning Systems Engineer · Yerevan, Armenia
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gev44.github.io-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://gev44.github.io)
 [![Telegram](https://img.shields.io/badge/Telegram-@hovhannisyan77-2BA8E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hovhannisyan77)
@@ -9,64 +9,51 @@
 
 <p align="center">
   <b>B.Sc. Informatics & Applied Mathematics</b>, Yerevan State University (2023–2027)<br>
-  <b>ML Engineer Intern</b>, Mathrix AI (2026) · <b>Bioinformatics Engineer</b>, BostonGene program (2025–26)
+  <b>ML Engineer Intern</b>, Mathrix AI · <b>Bioinformatics Engineer</b>, BostonGene Program
 </p>
 
 ---
 
 </div>
 
-### 🚀 Production Flagship: [YourRealty](https://github.com/GEV44/gevstate)
-> **Autonomous 24/7 Real-Estate AI Radar & Lead Matching Engine**  
-> Running in production for Yerevan agencies · [Open Agent Workspace](https://yourrealty.vercel.app/app) · [Interactive Home Finder](https://yourrealty.vercel.app/app/find) · [Client Request Form](https://yourrealty.vercel.app/request)
-
-<p align="center">
-  <a href="https://yourrealty.vercel.app/app">
-    <img src="https://raw.githubusercontent.com/GEV44/gevstate/main/docs/img/social-preview.png" alt="YourRealty Preview" width="100%">
-  </a>
-</p>
-
-- **24/7 Autonomous Cloud Ingest:** Continuously scrapes and parses listings across 12 public Telegram channels, public groups, web requests, and forwarded screenshots without requiring a local PC.
-- **Dual-Stage Probability Calibration:** Integrates **TypeSafe Jev AI** to mathematically separate real housing seekers ($P \ge 0.90$) from agency advertisements and noise, with deterministic SQL fallback that never blocks on rate limits.
-- **Instant Match Cards:** Ranks 8,983+ indexed Yerevan properties across Kentron, Arabkir, Davtashen, and 9 other districts; delivers ready lead cards with contact buttons into agents' Telegram within 2.4 seconds.
-- **Security & Access Control:** Public cloud demo allows read-only exploration of live search, listings, and multilingual switching. Administrative actions and lead modifications are secured by a protected login panel (`/app/login`) with host-generated credentials.
-- **Engineering Discipline:** 1,144 pytest unit & integration tests, SQLite WAL mode, async queue architecture, trilingual support (**Armenian · Russian · English** + Latin transliteration).
+### 🔭 Focus & Engineering Philosophy
+Specializing in production-grade AI systems, multimodal vision-language models, verifiable RAG pipelines, and mathematical algorithms built from first principles. I design autonomous architectures that pair probabilistic LLM intelligence with deterministic system guardrails to eliminate hallucinations and deliver sub-second performance.
 
 ---
 
 ### 🛠️ Featured Systems & Technical Proofs
 
-| Project | System Architecture & Proof | Tech Stack | Status |
+| System | Architecture & Engineering Highlights | Core Stack | Status |
 |---|---|---|---|
-| **[YourRealty](https://github.com/GEV44/gevstate)** · [Demo](https://yourrealty.vercel.app/app) | Real-estate radar & AI lead matcher; 35k posts/wk, 1,144 tests, 24/7 serverless runtime | Python 3.12 · FastAPI · HTMX · TypeSafe Jev AI · SQLite WAL | ![Live](https://img.shields.io/badge/Running-24%2F7-22C55E?style=flat-square) |
-| **[stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator)** · [Math PDF](https://github.com/GEV44/stereo-distance-calculator/blob/main/docs/MATHEMATICAL_FOUNDATION.pdf) | Computer vision from first principles: analytic gradients, 5×5 gamma lens model, ZNCC epipolar matching, 6.0% median error on 27 calibrated points | NumPy · SciPy · pytest | ![Research](https://img.shields.io/badge/CV-Research-60A5FA?style=flat-square) |
-| **[wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence-lab)** · [Demo](https://wardrobe-intelligence.streamlit.app) | Context-aware AI stylist MVP: FashionSigLIP zero-shot tagging, outfit scoring, local Qwen3 chat via llama.cpp | Python · Streamlit · PyTorch · FastAPI | ![Live](https://img.shields.io/badge/Streamlit-Live-FF4B4B?style=flat-square) |
-| **[Sentinel](https://gev44.github.io)** | Crypto research & paper-trading engine on Solana, Base & BSC; automated honeypot/mint gates, 10 pre-registered hypotheses tracked for 30d | Python · TimescaleDB · Playwright · Risk Engine | ![Live](https://img.shields.io/badge/Running-24%2F7-22C55E?style=flat-square) |
-| **[resume-constructor](https://github.com/GEV44/resume-constructor)** · [Live App](https://resume-constructor-gev44.vercel.app) | AI resume builder: parses PDF/DOCX, scores against 36 job roles, suggests grounded rewrites; auth, Postgres RLS, Edge Functions | React · TypeScript · Supabase · Gemini | ![Live](https://img.shields.io/badge/Live-Production-F59E0B?style=flat-square) |
-| **[doc-rag-api](https://github.com/GEV44/doc-rag-api)** | Grounded document Q&A over HTTP; answers cite source chunks and similarity scores, refuses unknown questions; 24 CI tests | Python · FastAPI · BM25 · Ollama / OpenAI | ![Open Source](https://img.shields.io/badge/Open-Source-22C55E?style=flat-square) |
-| **[silent-stakeholder](https://github.com/GEV44/silent-stakeholder)** · [Demo](https://gev44.github.io/silent-stakeholder-demo/) | Evidence-grounded review analysis: 6-stage NLP pipeline turning app reviews into ranked opportunities; 26/26 verified spans | Python · NLP · Streamlit · pytest | ![Demo](https://img.shields.io/badge/Live-Demo-A855F7?style=flat-square) |
-| **[EdgeFinder](https://gev44.github.io)** | Honest FX signal bot: 11 pairs × 4 expiries, LightGBM classifier with walk-forward testing; says NO TRADE when unproven | Python · LightGBM · Dukascopy · Telegram | ![Tested](https://img.shields.io/badge/Walk--Forward-Validated-EAB308?style=flat-square) |
-| **[think-weather-cli](https://github.com/GEV44/think-weather-cli)** | Fast terminal weather dashboard with hourly charts, 5-day forecasts, caching & metric/imperial units | Python · Rich CLI · REST API | ![CLI](https://img.shields.io/badge/Open-Source-EAB308?style=flat-square) |
+| **YourRealty** · [Web App](https://yourrealty.vercel.app/app) | Real-estate intelligence radar & lead qualification engine for Yerevan agencies. Autonomous multi-source Telegram ingest, dual-stage probability calibration, and instant trilingual dispatch (Armenian / Russian / English). | Python 3.12 · FastAPI · HTMX · TypeSafe AI · SQLite WAL | ![Private](https://img.shields.io/badge/Client%20Production-Private-64748B?style=flat-square) |
+| **[stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator)** · [Math PDF](https://github.com/GEV44/stereo-distance-calculator/blob/main/docs/MATHEMATICAL_FOUNDATION.pdf) | Computer vision from first principles: analytic gradients, learned 5×5 non-linear lens distortion grid, ZNCC epipolar matching with sub-pixel disparity, and closed-form OLS triangulation. Zero deep-learning dependencies. | Pure NumPy · SciPy · Pygame | ![Open Source](https://img.shields.io/badge/Research-Open%20Source-60A5FA?style=flat-square) |
+| **[wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence-lab)** · [Demo](https://wardrobe-intelligence.streamlit.app) | Context-aware multimodal AI stylist MVP: zero-shot style embedding via FashionSigLIP, local quantised Qwen3 inference via llama.cpp, interactive outfit coherence scoring, and trilingual UI. | Python · Streamlit · PyTorch · SigLIP · FastAPI | ![Live](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=flat-square) |
+| **[doc-rag-api](https://github.com/GEV44/doc-rag-api)** | Production document RAG engine over HTTP: hybrid BM25 + dense retrieval, strict provenance attribution with cited source chunks and similarity scores, and strict refusal on out-of-corpus queries. | Python · FastAPI · BM25 · Ollama / OpenAI | ![Open Source](https://img.shields.io/badge/Backend-Open%20Source-22C55E?style=flat-square) |
+| **[silent-stakeholder](https://github.com/GEV44/silent-stakeholder)** · [Demo](https://gev44.github.io/silent-stakeholder-demo/) | Evidence-grounded NLP product intelligence: multi-stage NLP pipeline transforming raw app-store reviews and public roadmaps into ranked, actionable feature opportunities with exact quote attribution. | Python · NLP · Streamlit · Pandas | ![Demo](https://img.shields.io/badge/NLP-Live%20Demo-A855F7?style=flat-square) |
+| **[resume-constructor](https://github.com/GEV44/resume-constructor)** · [Live App](https://resume-constructor-gev44.vercel.app) | Intelligent resume analyzer: deterministic parsing across 36 industry roles, fact-grounded rewrite suggestions, Postgres RLS, and ATS-optimized document export. | React · TypeScript · Supabase · Gemini | ![Live](https://img.shields.io/badge/Web%20App-Live-F59E0B?style=flat-square) |
+| **[think-weather-cli](https://github.com/GEV44/think-weather-cli)** | High-performance terminal atmospheric dashboard: keyless Open-Meteo REST ingest, hourly time-series sparklines, SQLite persistent cache, and instant cross-platform CLI rendering. | Python 3.12 · Rich CLI · REST API | ![CLI](https://img.shields.io/badge/Tooling-Open%20Source-EAB308?style=flat-square) |
 
 ---
 
-### 💻 Core Stack & Competencies
+### 💻 Technical Competencies
 
 ```
-Languages:     Python 3.12 (Expert), SQL, TypeScript, JavaScript, Bash
-AI & ML:       Claude API, OpenAI API, TypeSafe Jev AI, PyTorch, LightGBM, scikit-learn, NumPy, RAG, Ollama
-Backend:       FastAPI, SQLAlchemy, SQLite (WAL mode), PostgreSQL, TimescaleDB, Docker, Linux/systemd
-Frontend & UI: HTMX, Tailwind CSS, React, Streamlit, Jinja2
-Automation:    aiogram 3.x, Telethon, Playwright, n8n, Make, Web Scraping (httpx, BeautifulSoup)
-Testing & CI:  pytest, GitHub Actions CI/CD, mypy, Ruff
-Languages:     Armenian (Native), Russian (Fluent), English (Professional)
+AI & Deep Learning:   LLM Orchestration, Multimodal Vision (SigLIP / CLIP), Vector Embeddings,
+                      Retrieval-Augmented Generation (RAG), Fine-Tuning, Quantized Local Inference (llama.cpp)
+Applied Math & ML:    Numerical Optimization, First-Principles Computer Vision (Epipolar Geometry, Triangulation),
+                      LightGBM, scikit-learn, NumPy, SciPy, Statistical Testing, Survival Analysis
+Backend & Systems:    Python 3.12 (Expert), FastAPI, Asyncio, SQLAlchemy, PostgreSQL, TimescaleDB,
+                      SQLite (WAL Mode), Redis, System Architecture, Docker, Linux / systemd
+Data & Automation:    aiogram 3.x, Telethon, Playwright, Event-Driven Queues, High-Throughput Scrapers
+Frontend & UI:        HTMX, Tailwind CSS, React, TypeScript, Streamlit, Jinja2
+Languages:            Armenian (Native), Russian (Fluent), English (Professional)
 ```
 
 ---
 
-### 🤝 How I Work
-- **Working Demo First:** You see the working system on your real data before paying.
-- **Deterministic Guardrails:** AI enriches and classifies, but deterministic SQL rules enforce hard constraints. Zero silent hallucinations.
-- **Production Hardened:** Full automated test suites (pytest), graceful error handling with DB-backed queues, zero-downtime cloud deployments.
+### 🤝 Engineering Approach
+- **Deterministic Guardrails:** AI generates and interprets; deterministic SQL and invariant checks validate. Zero silent hallucinations.
+- **Measurable Architecture:** Every pipeline is instrumented with structured telemetry, latency profiling, and fault-tolerant retry budgets.
+- **Production-Ready Delivery:** Fully reproducible environments, containerized deployments, and clean, self-documenting codebases.
 
-📬 **Reach out:** [Telegram @hovhannisyan77](https://t.me/hovhannisyan77) · [Email: gev220705@gmail.com](mailto:gev220705@gmail.com) · [Portfolio: gev44.github.io](https://gev44.github.io)
+📬 **Connect:** [Telegram @hovhannisyan77](https://t.me/hovhannisyan77) · [Email: gev220705@gmail.com](mailto:gev220705@gmail.com) · [Portfolio: gev44.github.io](https://gev44.github.io)
