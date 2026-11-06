@@ -1,7 +1,7 @@
 <div align="center">
 
 # Gevorg Hovhannisyan
-### Senior AI & Machine Learning Systems Engineer · Yerevan, Armenia
+### AI/ML Engineer · Yerevan, Armenia
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gev44.github.io-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://gev44.github.io)
 [![Telegram](https://img.shields.io/badge/Telegram-@hovhannisyan77-2BA8E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hovhannisyan77)
