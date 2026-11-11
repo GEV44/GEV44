@@ -1,62 +1,41 @@
-<div align="center">
-
 # Gevorg Hovhannisyan
-### AI / ML engineer in Yerevan
+### AI engineer in Yerevan, Armenia. RAG assistants, LLM agents, bots and AI video, built to ship.
 
-I build AI assistants that answer from your documents with sources, automations, ML models and AI video content.
+I design and build AI systems for businesses: assistants that answer from your documents with sources, automations that remove manual work, and AI video that sells. English, Russian and Armenian. Available for remote freelance, contract and full-time work.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-gev44.github.io-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://gev44.github.io)
-[![Telegram](https://img.shields.io/badge/Telegram-@hovhannisyan77-2BA8E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hovhannisyan77)
-[![Email](https://img.shields.io/badge/Email-gev220705@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gev220705@gmail.com)
+## What I build for clients
 
-<table>
-<tr><td><b>AI / ML</b></td><td>LLM assistants, RAG with citations, multimodal vision, ML models on your data</td></tr>
-<tr><td><b>Backend & bots</b></td><td>Python, FastAPI, Telegram / WhatsApp bots, PostgreSQL</td></tr>
-<tr><td><b>Automation & data</b></td><td>n8n, Make, scrapers, dashboards</td></tr>
-<tr><td><b>AI video</b></td><td>Product Reels, AI ads, brand characters (<a href="https://www.instagram.com/yerevanyan.mult/">@yerevanyan.mult</a>)</td></tr>
-</table>
+- **RAG and AI assistants** that answer from your documents and cite their sources, and refuse when the answer is not there
+- **LLM agents and automations** in Python, n8n and Make: lead handling, reports, document flows, CRM and spreadsheet sync
+- **Telegram and WhatsApp bots** for support, ordering, booking and internal tools
+- **Scrapers and data pipelines** that collect, clean and deliver data on a schedule
+- **FastAPI backends** with PostgreSQL, tests and Docker, ready to plug into your product
+- **AI video and 3D cartoon ads**: Pixar-style characters, product Reels and ad creatives
 
----
+## Featured work
 
-</div>
+| Project | What it is |
+|---|---|
+| [doc-rag-api](https://github.com/GEV44/doc-rag-api) | Document Q&A API in FastAPI: upload PDF/TXT/MD, ask questions, get answers with cited source chunks and scores. BM25 retrieval, optional embeddings or LLM through any OpenAI-compatible endpoint, including local Ollama. 24 tests in CI. |
+| [wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence-lab) ([live](https://wardrobe-intelligence-lab.streamlit.app)) | AI stylist built with Streamlit and FastAPI: outfit scoring from real garment photos, FashionSigLIP photo tagging, local Qwen3 chat through llama.cpp, English, Armenian and Russian UI. |
+| [silent-stakeholder](https://github.com/GEV44/silent-stakeholder) ([report](https://gev44.github.io/silent-stakeholder/)) | Turns app-store reviews and a public GitHub roadmap into ranked product opportunities, each with traceable quotes. Python, Streamlit, mypy/ruff and 250+ tests in CI. |
+| [resume-constructor](https://github.com/GEV44/resume-constructor) ([live](https://resume-constructor-gev44.vercel.app)) | Resume builder: scores a resume against 36 job roles or a pasted posting, rewrites it with AI that must not invent facts, exports ATS-readable PDF and Word. React, TypeScript, Supabase. |
+| [think-weather-cli](https://github.com/GEV44/think-weather-cli) | Terminal weather app for any city or postal code: Rich dashboard, plain and JSON output, SQLite cache, strict typing, offline test suite, CI on Linux, macOS and Windows. |
+| [stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator) | Distance from two ordinary cameras in pure NumPy: learned lens grid, hand-derived gradients, ZNCC matching, triangulation. 6.0% median error on a real rig. |
+| [batchcor-rna-embeds](https://github.com/GEV44/batchcor-rna-embeds) | Bioinformatics study: scGPT embeddings, batch correction with a conditional autoencoder, LightGBM survival prediction under a strict cross-validation protocol. Group internship project. |
 
-### 🔭 Focus & Engineering Philosophy
-Specializing in production-grade AI systems, multimodal vision-language models, verifiable RAG pipelines, and mathematical algorithms built from first principles. I design autonomous architectures that pair probabilistic LLM intelligence with deterministic system guardrails to eliminate hallucinations and deliver sub-second performance.
+## Tech I use
 
----
+Python, FastAPI, PyTorch, ONNX, llama.cpp, SigLIP, scGPT, LightGBM, scikit-learn, NumPy, SciPy, Streamlit, React, TypeScript, Supabase, PostgreSQL, SQLite, Docker, pytest, GitHub Actions.
 
-### 🛠️ Featured Systems & Technical Proofs
+## AI video
 
-| System | Architecture & Engineering Highlights | Core Stack | Status |
-|---|---|---|---|
-| **[stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator)** · [Math PDF](https://github.com/GEV44/stereo-distance-calculator/blob/main/docs/MATHEMATICAL_FOUNDATION.pdf) | Computer vision from first principles: analytic gradients, learned 5×5 non-linear lens distortion grid, ZNCC epipolar matching with sub-pixel disparity, and closed-form OLS triangulation. Zero deep-learning dependencies. | Pure NumPy · SciPy · Pygame | ![Open Source](https://img.shields.io/badge/Research-Open%20Source-60A5FA?style=flat-square) |
-| **[wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence-lab)** · [Live app](https://wardrobe-intelligence.streamlit.app) | Context-aware multimodal AI stylist MVP: zero-shot style embedding via FashionSigLIP, local quantised Qwen3 inference via llama.cpp, interactive outfit coherence scoring, and trilingual UI. | Python · Streamlit · PyTorch · SigLIP · FastAPI | ![Live](https://img.shields.io/badge/Streamlit-Live-FF4B4B?style=flat-square) |
-| **[doc-rag-api](https://github.com/GEV44/doc-rag-api)** | Production document RAG engine over HTTP: hybrid BM25 + dense retrieval, strict provenance attribution with cited source chunks and similarity scores, and strict refusal on out-of-corpus queries. | Python · FastAPI · BM25 · Ollama / OpenAI | ![Open Source](https://img.shields.io/badge/Backend-Open%20Source-22C55E?style=flat-square) |
-| **[silent-stakeholder](https://github.com/GEV44/silent-stakeholder)** · [Live app](https://gev44.github.io/silent-stakeholder-demo/) | Evidence-grounded NLP product intelligence: multi-stage NLP pipeline transforming raw app-store reviews and public roadmaps into ranked, actionable feature opportunities with exact quote attribution. | Python · NLP · Streamlit · Pandas | ![Live](https://img.shields.io/badge/NLP-Live-A855F7?style=flat-square) |
-| **[resume-constructor](https://github.com/GEV44/resume-constructor)** · [Live App](https://resume-constructor-gev44.vercel.app) | Intelligent resume analyzer: deterministic parsing across 36 industry roles, fact-grounded rewrite suggestions, Postgres RLS, and ATS-optimized document export. | React · TypeScript · Supabase · Gemini | ![Live](https://img.shields.io/badge/Web%20App-Live-F59E0B?style=flat-square) |
-| **[think-weather-cli](https://github.com/GEV44/think-weather-cli)** | High-performance terminal atmospheric dashboard: keyless Open-Meteo REST ingest, hourly time-series sparklines, SQLite persistent cache, and instant cross-platform CLI rendering. | Python 3.12 · Rich CLI · REST API | ![CLI](https://img.shields.io/badge/Tooling-Open%20Source-EAB308?style=flat-square) |
+I also make 3D Pixar-style cartoon videos and AI ad Reels. Examples: [AI video page](https://gev44.github.io/ai-video.html) and Instagram [@yerevanyan.mult](https://www.instagram.com/yerevanyan.mult/).
 
----
+## Work with me
 
-### 💻 Technical Competencies
+Tell me what you want to automate or build and I will reply with a clear plan.
 
-```
-AI & Deep Learning:   LLM Orchestration, Multimodal Vision (SigLIP / CLIP), Vector Embeddings,
-                      Retrieval-Augmented Generation (RAG), Fine-Tuning, Quantized Local Inference (llama.cpp)
-Applied Math & ML:    Numerical Optimization, First-Principles Computer Vision (Epipolar Geometry, Triangulation),
-                      LightGBM, scikit-learn, NumPy, SciPy, Statistical Testing, Survival Analysis
-Backend & Systems:    Python 3.12 (Expert), FastAPI, Asyncio, SQLAlchemy, PostgreSQL, TimescaleDB,
-                      SQLite (WAL Mode), Redis, System Architecture, Docker, Linux / systemd
-Data & Automation:    aiogram 3.x, Telethon, Playwright, Event-Driven Queues, High-Throughput Scrapers
-Frontend & UI:        HTMX, Tailwind CSS, React, TypeScript, Streamlit, Jinja2
-Languages:            Armenian (Native), Russian (Fluent), English (Professional)
-```
-
----
-
-### 🤝 Engineering Approach
-- **Deterministic Guardrails:** AI generates and interprets; deterministic SQL and invariant checks validate. Zero silent hallucinations.
-- **Measurable Architecture:** Every pipeline is instrumented with structured telemetry, latency profiling, and fault-tolerant retry budgets.
-- **Production-Ready Delivery:** Fully reproducible environments, containerized deployments, and clean, self-documenting codebases.
-
-📬 **Connect:** [Telegram @hovhannisyan77](https://t.me/hovhannisyan77) · [Email: gev220705@gmail.com](mailto:gev220705@gmail.com) · [Portfolio: gev44.github.io](https://gev44.github.io)
+- Portfolio: [gev44.github.io](https://gev44.github.io)
+- Telegram: [@hovhannisyan77](https://t.me/hovhannisyan77)
+- Instagram: [@yerevanyan.mult](https://www.instagram.com/yerevanyan.mult/)
