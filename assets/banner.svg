@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Gevorg Hovhannisyan, AI engineer">
+  <rect width="1200" height="300" fill="#0f1b2d"/>
+  <g fill="none" stroke="#c9a24a" stroke-opacity="0.12" stroke-width="1">
+    <path d="M700 0L1200 300M760 0L1200 264M820 0L1200 228M880 0L1200 192"/>
+    <circle cx="1060" cy="90" r="70"/><circle cx="1060" cy="90" r="120"/>
+  </g>
+  <rect x="70" y="62" width="64" height="5" fill="#c9a24a"/>
+  <text x="70" y="140" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="700" fill="#ffffff">Gevorg Hovhannisyan</text>
+  <text x="70" y="188" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" fill="#c9a24a">AI engineer · RAG, LLM agents, automation, AI video</text>
+  <text x="70" y="236" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#aab6c8" letter-spacing="1">Yerevan · EN / RU / HY</text>
+</svg>
