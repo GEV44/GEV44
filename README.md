@@ -2,6 +2,12 @@
 
 I build AI systems that ship: assistants that answer from your documents with sources, bots and automations that remove manual work, and AI video. ML/AI engineer in Yerevan, B.Sc. Informatics & Applied Math at YSU (2023-2027), ML engineering internship at Mathrix AI. Open to remote freelance, contract and full-time work.
 
+## Flagship: AIrealty
+
+**[AIrealty](https://gev44.github.io/airealty/)** brings real-estate agencies new clients every day. It reads Telegram and portal posts from people looking for housing, extracts budget, district and rooms in Armenian, Russian and English, and matches each request with owner listings, so an agent gets a ready client before competitors do. In one week in Yerevan it found **1,103 people actively looking for housing**.
+
+[See how it works →](https://gev44.github.io/airealty/) · agencies: write on [WhatsApp](https://wa.me/37444772541) or [Telegram](https://t.me/hovhannisyan77)
+
 ## Featured products
 
 | | |
@@ -10,7 +16,7 @@ I build AI systems that ship: assistants that answer from your documents with so
 | **[doc-rag-api](https://github.com/GEV44/doc-rag-api)**<br>Document Q&A API with page/section citations, HY/RU/EN, DOCX and rate limiting. 58 tests. | **[silent-stakeholder](https://github.com/GEV44/silent-stakeholder)** ([demo](https://gev44.github.io/silent-stakeholder-demo/))<br>Turns app reviews and a public roadmap into ranked product opportunities with traceable quotes. 261 tests. |
 | **[wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence-lab)** ([live](https://wardrobe-intelligence-lab.streamlit.app))<br>AI stylist: outfits from real garment photos, feedback learning, EN/HY/RU. | **[resume-constructor](https://github.com/GEV44/resume-constructor)** ([live](https://resume-constructor-gev44.vercel.app))<br>Scores a resume against 36 roles, rewrites it with AI that never invents facts, exports PDF/Word. |
 | **[stereo-distance-calculator](https://github.com/GEV44/stereo-distance-calculator)**<br>Distance from two ordinary cameras in pure NumPy. 6% median error on a real rig. | **[think-weather-cli](https://github.com/GEV44/think-weather-cli)**<br>Terminal weather with Rich dashboard, JSON output and strict typing. CI on Linux, macOS, Windows. |
-| **[batchcor-rna-embeds](https://github.com/GEV44/batchcor-rna-embeds)**<br>scGPT embeddings, batch correction and survival prediction. Group internship project (BostonGene program). | **[AIrealty](https://gev44.github.io/airealty/)**<br>A system that brings real-estate agencies new clients every day; 1,103 people looking for housing found in one week in Yerevan. |
+| **[batchcor-rna-embeds](https://github.com/GEV44/batchcor-rna-embeds)**<br>scGPT embeddings, batch correction and survival prediction. Group internship project (BostonGene program). | **[multilingual-listing-intelligence](https://github.com/GEV44/multilingual-listing-intelligence)**<br>RU/HY/EN real-estate post extraction, de-duplication and matching: the data engine behind AIrealty. |
 
 ## How I work
 
@@ -40,7 +46,7 @@ I build AI systems that ship: assistants that answer from your documents with so
 
 ## AI video
 
-I also make Pixar-style 3D cartoon videos and AI ad Reels: [gev44.github.io/ai-video.html](https://gev44.github.io/ai-video.html)
+I also make Pixar-style 3D cartoon videos and AI ad Reels: [gev44.github.io/ai-video.html](https://gev44.github.io/ai-video.html). Latest: a 27-second fully AI-generated brand story for a clothing brand ([watch](https://gev44.github.io/video/legenda-test.html)).
 
 ## Contact
 
