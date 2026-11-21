@@ -2,11 +2,15 @@
 
 I build AI systems that ship: assistants that answer from your documents with sources, bots and automations that remove manual work, and AI video. ML/AI engineer in Yerevan, B.Sc. Informatics & Applied Math at YSU (2023-2027), ML engineering internship at Mathrix AI. Open to remote freelance, contract and full-time work.
 
-## Flagship: AIrealty
+## Flagships
 
 **[AIrealty](https://gev44.github.io/airealty/)** brings real-estate agencies new clients every day. It reads Telegram and portal posts from people looking for housing, extracts budget, district and rooms in Armenian, Russian and English, and matches each request with owner listings, so an agent gets a ready client before competitors do. In one week in Yerevan it found **1,103 people actively looking for housing**.
 
 [See how it works →](https://gev44.github.io/airealty/) · agencies: write on [WhatsApp](https://wa.me/37444772541) or [Telegram](https://t.me/hovhannisyan77)
+
+**[Falcon Content Factory](https://gev44.github.io/falcon-content-factory/)** is an AI content factory for a group of 22 brands (logistics, an AI agency, a community). It goes from source research to an AI editorial council, a real rendered MP4 with captions, a 16-check quality gate, and publishing that counts only when the real post link comes back. Every brand is isolated on the server, so one company's video can never go to another company's account. TypeScript · Fastify · Next.js · PostgreSQL job queue · FFmpeg · Docker. **131 tests on a real database**, including a worker crash-recovery test.
+
+[Product page →](https://gev44.github.io/falcon-content-factory/)
 
 ## Featured products
 
@@ -35,6 +39,9 @@ I build AI systems that ship: assistants that answer from your documents with so
 ![Streamlit](https://img.shields.io/badge/Streamlit-0f1b2d?style=flat-square&logo=streamlit&logoColor=c9a24a)
 ![React](https://img.shields.io/badge/React-0f1b2d?style=flat-square&logo=react&logoColor=c9a24a)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0f1b2d?style=flat-square&logo=typescript&logoColor=c9a24a)
+![Next.js](https://img.shields.io/badge/Next.js-0f1b2d?style=flat-square&logo=nextdotjs&logoColor=c9a24a)
+![Fastify](https://img.shields.io/badge/Fastify-0f1b2d?style=flat-square&logo=fastify&logoColor=c9a24a)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-0f1b2d?style=flat-square&logo=ffmpeg&logoColor=c9a24a)
 ![Supabase](https://img.shields.io/badge/Supabase-0f1b2d?style=flat-square&logo=supabase&logoColor=c9a24a)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0f1b2d?style=flat-square&logo=postgresql&logoColor=c9a24a)
 ![SQLite](https://img.shields.io/badge/SQLite-0f1b2d?style=flat-square&logo=sqlite&logoColor=c9a24a)
