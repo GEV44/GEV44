@@ -46,7 +46,7 @@ I build AI systems that ship: assistants that answer from your documents with so
 
 ## AI video
 
-I also make Pixar-style 3D cartoon videos and AI ad Reels: [gev44.github.io/ai-video.html](https://gev44.github.io/ai-video.html). Latest: a 27-second fully AI-generated brand story for a clothing brand ([watch](https://gev44.github.io/video/legenda-test.html)).
+I also make AI video for brands: short ad Reels, product videos and 3D cartoon series, with scripts, voice-over in EN/RU/HY and editing. Examples: [gev44.github.io/ai-video.html](https://gev44.github.io/ai-video.html).
 
 ## Contact
 
