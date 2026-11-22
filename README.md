@@ -12,6 +12,7 @@ I build AI tools that businesses actually use: assistants that answer from your 
 
 | Project | What it does |
 |---|---|
+| **[Falcon Content Factory](https://gev44.github.io/falcon-content-factory/)** | Content system for a group of 22 brands: sourced research, AI editorial review, rendered MP4s, a 16-check quality gate and scheduled publishing. 131 tests on PostgreSQL. Client pilot, private code. |
 | **[AIrealty](https://gev44.github.io/airealty/)** | Finds people looking for housing in Telegram chats and portals, then matches them with owner listings. 1,103 client requests found in one week in Yerevan. |
 | **[doc-rag-api](https://github.com/GEV44/doc-rag-api)** | Document Q&A API that cites the page and section it used. FastAPI, HY/RU/EN, 58 tests. |
 | **[telegram-ai-assistant-bot](https://github.com/GEV44/telegram-ai-assistant-bot)** | Telegram assistant for small businesses: bookings, reminders, owner digest. 110 tests. |
@@ -23,7 +24,7 @@ More: [wardrobe-intelligence-lab](https://github.com/GEV44/wardrobe-intelligence
 
 ### Stack
 
-Python · FastAPI · LLM APIs · RAG · scikit-learn · PyTorch · PostgreSQL · Docker · GitHub Actions · n8n / Make · Telegram bots
+Python · TypeScript · FastAPI · LLM APIs · RAG · scikit-learn · PyTorch · PostgreSQL · Docker · GitHub Actions · n8n / Make · Telegram bots
 
 ### Background
 
